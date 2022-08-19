@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Favorite Programming Language</title>
+    </head>
+    <body>
+        <h1>Favorite Programming Language</h1>
+        <form action="/form-handlng-url" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status" name="user_status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <p>
+                    Choose your favorite programming language:
+                </p>
+
+                <div>
+                    <fieldset>
+                        <legend>Programming Languages</legend>
+
+                        <div>
+                            <input type="radio" id="html" name="html_code">
+                            <label for="html">Hypetext Markup Language(HTML)</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="css" name="css_code">
+                            <label for="css">Cascading Style Sheets(CSS)</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="javascript" name="js_code">
+                            <label for="javascript">JavaScript(JS)</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="python" name="python_code">
+                            <label for="python">Python</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="c" name="c_code">
+                            <label for="c">C/C++/C#</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label for="comment">Comments:</label>
+                    <textarea id="comment" name="comment"></textarea>
+                </div>
+
+                <div>
+                    <label for="currentDate">Current Date</label>
+                    <input type="date" id="currentDate" name="current_date">
+                </div>
+
+                <div>
+                    <input type="checkbox" id="signUp" name="sign_up">
+                    <label for="signUp">Sign up for Newsletter</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="agreeToTerms" name="agree_to_terms">
+                    <label for="agreeToTerms">Agree to Terms and Conditions</label>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
